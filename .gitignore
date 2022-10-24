@@ -1,3 +1,6 @@
+# production build folder
+**/public/
+
 # VSCode
 .vscode/*
 !.vscode/settings.json
