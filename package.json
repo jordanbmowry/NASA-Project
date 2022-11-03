@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/jordanbmowry/NASA-Project/issues"
   },
-  "homepage": "https://github.com/jordanbmowry/NASA-Project#readme"
+  "homepage": "https://github.com/jordanbmowry/NASA-Project#readme",
+  "devDependencies": {
+    "supertest": "^6.3.1"
+  }
 }
