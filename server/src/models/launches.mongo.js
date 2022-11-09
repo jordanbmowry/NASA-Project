@@ -1,4 +1,4 @@
-const mongoose = equire('mongoose');
+const mongoose = require('mongoose');
 
 const launchesSchema = new mongoose.Schema({
   flightNumber: {
@@ -32,3 +32,5 @@ const launchesSchema = new mongoose.Schema({
   },
   customers: [String],
 });
+
+module.exports = mongoose.model('Launch', launchesSchema);
