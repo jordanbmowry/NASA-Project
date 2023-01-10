@@ -12,7 +12,7 @@
     "dev": "npm run server & npm run client",
     "deploy": "npm run build --prefix client && npm start --prefix server",
     "deploy-cluster": "npm run build --prefix client && npm run cluster --prefix server",
-    "test": "nmp run test --prefix server && npm run test --prefix client",
+    "test": "npm run test --prefix server && npm run test --prefix client",
     "start": "npm run build --prefix client && npm start --prefix server"
   },
   "repository": {
